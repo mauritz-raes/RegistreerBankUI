@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 1.5rem;
+}
+.logo{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    left: 10px;
+}
+.logoBankContact{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    right: 10px;
+}
+.container {
+    width: 20%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.RegistreerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.RegistreerForm1Label{
+    display: flex;
+    justify-content: left;
+}
+
+.RegistreerForm1{
+    justify-content: left;
+    align-items: left;
+}
+.RegistreerForm2{
+    position: relative;
+    left: 150px;
+    bottom: 150px
+   
+}
+.RegistreerForm2Input{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 2px auto;
+}
+
+.RegistreerButtons{
+    justify-content: left;
+    align-items: left;
+    margin-top: -70px;
+}
+
+.registreerBank {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    margin-top: 55px;
+}
+#RegistreerButton, #annuleerButton{
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2px ;
+    padding: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#RegistreerButton:hover, #annuleerButton:hover{
+    background-color: rgb(0, 120, 101);
+    color: #f2f2f2;
+}
+#uitloggen{
+    width: 10%;
+    height: 0px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
